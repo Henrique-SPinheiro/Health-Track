@@ -1,0 +1,65 @@
+.caixa {
+  position: relative;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 20px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #c78c19;
+  text-decoration: underline;
+}
+header {
+  background: #cfcfcf;
+  padding: 20px 0;
+}
+
+body {
+  font-family: sans-serif;
+  color: #3c3939;
+  background-color: #f1f1f1;
+}
+.profile-card {
+  width: 400px;
+  margin: auto;
+  background: #fff;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+}
+.image-container {
+  position: relative;
+}
+.info {
+  color: #19191a;
+  margin-right: 16px;
+}
+.main-container {
+  padding: 20px;
+}
+.tittle {
+  position: absolute;
+  left: 15 px;
+  bottom: 0;
+}
+footer {
+  text-align: center;
+  background: #cfcfcf;
+  padding: 40px 0;
+}

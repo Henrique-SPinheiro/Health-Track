@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium</title>
+    <link href="pagamento.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+</head>
+<header>
+    <div class="caixa">
+        <h1><img src="Logo.png"alt="Logo"></h1>
+
+        <nav>
+            <ul>
+                <li><a href="Dashboard.html">Dashboard</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="pagamento.html">Premium</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Pagamento Premium</h2>
+        <form method="Post">
+            <h4>Conta</h4>
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Nome completo" required class="name">
+                    <i class="fa fa-user icon"></i>
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Apelido" required class="name">
+                    <i class="fa fa-user icon"></i>
+                </div>                    
+            </div>
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="email" placeholder="E-mail" required class="name">
+                    <i class="fa fa-envelope icon"></i>
+                </div>
+            </div>
+            <div class="input-group">
+                <div class="input-box">
+                    <h4>Data de aniversário</h4>
+                    <input type="text" placeholder="Dia" class="dob">
+                    <input type="text" placeholder="Mês" class="dob">
+                    <input type="text" placeholder="Ano" class="dob">                    
+                </div>
+                <div class="input-box">
+                    <h4>Sexo</h4>
+                    <input type="radio" id="b1" name="Gênero" checked class="radio">
+                    <label for="b1">Masculino</label>
+                    <input type="radio" id="b2" name="Gênero" class="radio">
+                    <label for="b2">Feminino</label>
+                </div>
+            </div>
+            <div class="input-group">
+                <div class="input-box">
+                    <h4>Detalhes de pagamento</h4>
+                    <input type="radio" name="pay" id="bc1" checked class="radio">
+                    <label for="bc1"><span><i class="fafa-cc-visa"></i>Crédito</span></label>
+                    <input type="radio" name="pay" id="bc2" class="radio">
+                    <label for="bc2"><span><i class="fafa-cc-paypal"></i>Paypal</span></label>
+                </div>
+            </div>
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="tel" placeholder="Crédito" required class="name">
+                    <i class="fa fa-credit-card icon"></i>
+                </div>
+            </div>
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="tel" placeholder="Cartão CVC" required class="name">
+                    <i class="fa fa-user icon"></i>
+                </div>
+                <div class="input-box">
+                    <select>
+                        <option>01 jun</option>
+                        <option>02 jun</option>
+                        <option>03 jun</option>
+                    </select>
+                    <select>
+                        <option>2020</option>
+                        <option>2021</option>
+                        <option>2022</option>
+                    </select>
+                </div> 
+            </div>
+            <div class="input-group">
+                <div class="input-box">
+                    <button type="submit">Enviar</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+    <script src="https://kit.fontawesome.com/801487b885.js" crossorigin="anonymous"></script>
+</body>
+<footer>
+    
+</footer>
+
+</html>
